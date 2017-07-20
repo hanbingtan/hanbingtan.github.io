@@ -1,5 +1,5 @@
 ---
-layout: postshare
+layout: post
 title: "github pages+jekyll搭建个人博客(一)"
 date: 2016-09-05 10:48:00 +0800 
 categories: 博客搭建
