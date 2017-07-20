@@ -22,7 +22,7 @@ tag: jekyll
 1.1下载并安装rubyinstaller-2.1.9-x64.exe到C:\Ruby目录
 **notice**：安装的时候，记得勾选添加ruby到环境变量，如下图所示：
 <div align=center>
-![graph]({{ '/pic/博客搭建/ruby-evn.png' | prepend: site.baseurl }})
+![graph](hanbingtan.github.io/pic/博客搭建/jekyll-success.png)
 </div>
 1.2下载并解压对应的rubydevkit： DevKit-mingw64-64-4.7.2-20130224-1432-sfx .exe到C:\rubydevkit目录
 解压了rubydevkit之后，进入该目录下通过初始化来创建 config.yml 文件
