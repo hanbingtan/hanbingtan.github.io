@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<div class="container docs-container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        {% include lefttree.html %} 
+      </div>
+    </div>
+    <div class="col-md-9" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+            <header class="post-header">
+              <h1 class="post-title">{{ page.title }}</h1>
+              <!--
+                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+              -->
+              <div class="meta">Date： <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span> Author： <a target="_blank" href="{{site.url}}">{{ site.author }}</a></div>
+              <br />
+              <blockquote><p>本文章采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"> 知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 </a>进行许可。</p></blockquote>
+            </header>
+            <article class="post-content">
+              {{ content }}
+            </article>
+          <hr>
+         
+          <div class="text-center">
+            <a href="{{ '/donate/' | prepend: site.baseurl }}" target="_blank" style="text-decoration: none"><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> 您的支持是将是我写作最大的动力!</button></a>
+          </div>
+          
+        </div>
+      </div>
+      <!--comment-->
+      <!--Gitment-->
+      <!--
+      <div id="container"></div>
+      <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+      <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+      <script>
+        var gitment = new Gitment({
+          owner: 'hanbingtan',
+          repo: 'blog',
+          oauth: {
+          client_id: '933a3bd1bc57f353a1d9',
+          client_secret: '1355a8155b719d43c64a1515e9065a168b96d541',
+          },
+        })
+        gitment.render('container')
+      </script>
+     <div class="bdsharebuttonbox">
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+        <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+        <a href="#" class="bds_mail" data-cmd="mail" title="分享到邮件分享"></a>
+        <a href="#" class="bds_more" data-cmd="more"></a>
+    </div>
+    </div>
+    -->
+  </div>
+</div>
+
