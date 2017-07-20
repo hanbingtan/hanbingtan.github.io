@@ -18,6 +18,7 @@ tag: jekyll
 # 本地jekyll环境配置
 1.下载并且安装 ruby 和 DEVELOPMENT KIT
 官方下载地址 [http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)
+
 1.1下载并安装rubyinstaller-2.1.9-x64.exe到C:\Ruby目录
 **notice**：安装的时候，记得勾选添加ruby到环境变量，如下图所示：
 ![graph]({{ '/pic/博客搭建/ruby-evn.png' | prepend: site.baseurl }})
